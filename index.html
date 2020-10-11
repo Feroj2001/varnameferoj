@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start Your Quiz</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+
+        <div>
+            <h1 id="timer"></h1>
+        </div>
+    </div>
+    <!-- score keeper -->
+    <div class="score-container">
+        <div class="score-keeper">
+            <div id="number">
+                <label id="save-score" for="">Save your score</label>
+                <input type="text" name="name" id="name" placeholder="Your name">
+                <button id="save" class="save-btn hide">Save</button>
+            </div>
+        </div>
+
+        <!-- last score -->
+        <div class="card">
+            <h2 class="userScore hide">Last user score:</h2>
+            <p><strong>name:</strong> <span class="userName hide"></span></p>
+            <h2 id="main-score"></h2>
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
