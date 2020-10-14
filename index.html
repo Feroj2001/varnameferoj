@@ -11,7 +11,45 @@
 </head>
 
 <body>
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h4 class="timer-box" id="timecounter">
+                                <span id="timer">Timer : 60</span>
+                            </h4>
+                        </div>
+                        <div class="col-lg-11">
+                            <h1 class="code-title">Good luck with your quiz!</h1>
+                        </div>
+                    </div>
 
+                    <div class="questions d-none" id="quiz-questions">
+                        <div class="text" id="title-item">
+                            Any Question from the list.
+                        </div>
+                        <div class="answers-buttons" id="question-answers">
+
+                        </div>
+                        <h1 id="alert"></h1>
+                    </div>
+
+                    <div class="btnstart">
+                        <p id="info">
+                            You have 60sec to answer 5 questions. Incorrect answers
+                            will dock your timer by 3 seconds.
+                        </p>
+                        <button class="btn btn-primary btn-lg" id="btn-start">
+                            Start Quiz
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
