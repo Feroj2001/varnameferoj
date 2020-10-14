@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(34, 39, 29);
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15%;
+
+
+}
+
+#scoresArea {
+    margin-bottom: 20px;
+    font-size: 5em;
+}
+
+.back-button,
+.clearscores-button {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%
+}
